@@ -14,7 +14,7 @@ body {
       font-family: 'Roboto', sans-serif;
       font-weight: 400;
       font-size: 14px;
-      line-height: 1,7;
+      line-height: 1.7;
       letter-spacing: 0.03em;
       background-color: var(--primary-white-color);
       color: var(--primary-text-color);
@@ -22,39 +22,39 @@ body {
 
 /* Header styles */
 
-.page-header {
+/* .page-header {
    background: var(--primary-white-color);  
-}
+} */
 
 .site-nav .link.current {
    color: var(--accent-color);
 }
 
-.filter .filter-btn.current {
+.filter .filter-btn:hover,
+.filter .filter-btn:focus  {
    background-color: var(--accent-color);
    color: var(--primary-white-color);
 }
 
-.page-header a {
+a {
    text-decoration: none;
 }
 
 .primary-link {
-   font-family: 'Raleway';
-   font-style: normal;
+   font-family: 'Raleway', sans-serif;
    font-weight: 700;
    font-size: 26px;
-   line-height: 31px;
+   line-height: 1.19;
    letter-spacing: 0.03em;
    color: var(--logo-link-color);
 } 
 
 .header-logo, .footer-logo {
-   font-family: 'Raleway';
+   font-family: 'Raleway', sans-serif;
    font-style: normal;
    font-weight: 700;
    font-size: 26px;
-   line-height: 1,2;
+   line-height: 1.2;
    letter-spacing: 0.03em;
    color: var(--accent-color);
 }
@@ -68,7 +68,7 @@ body {
    font-family: 'Roboto';
    font-weight: 500;
    font-size: 14px;
-   line-height: 1,14;
+   line-height: 1.14;
    letter-spacing: 0.02em;
    color: var(--primary-text-color);
    font-style: normal;
@@ -83,7 +83,7 @@ body {
    font-family: 'Roboto';
    font-style: normal;
    font-size: 14px;
-   line-height: 1,14;
+   line-height: 1.14;
    letter-spacing: 0.02em;
    font-weight: 500;
    color: var(--primary-text-color);
@@ -94,11 +94,12 @@ body {
    color: var(--accent-color);
 }
 
-ul, .list{
+ .list { 
    list-style: none;
 }
 
 /* Hero section */
+
 .hero{
    background: var(--bg-color);
 }
@@ -106,7 +107,7 @@ ul, .list{
 .hero-title {
    font-weight: 900;
    font-size: 44px;
-   line-height: 1,36;
+   line-height: 1.36;
    text-align: center;
    letter-spacing: 0.06em;
    text-transform: uppercase;
@@ -114,9 +115,10 @@ ul, .list{
 }
 
 .btn {
+   font-family: inherit;
    font-weight: 700;
    font-size: 16px;
-   line-height: 1,87;
+   line-height: 1.87;
    letter-spacing: 0.06em;
    cursor: pointer;
    background: var(--accent-color);
@@ -124,9 +126,10 @@ ul, .list{
 }
 
 .filter-btn {
+   font-family: inherit;
    font-weight: 500;
    font-size: 16px;
-   line-height: 1,62;
+   line-height: 1.62;
    letter-spacing: 0.03em;
    cursor: pointer;
    color: var(--secondary-text-color);
@@ -141,18 +144,9 @@ ul, .list{
 .three-title {
    font-weight: 700;
    font-size: 14px;
-   line-height: 1,14;
-   letter-spacing: 0.03em;
+   line-height: 1.14;
    text-transform: uppercase;
    color: var(--secondary-text-color);
-}
-
-.description {
-   font-weight: 400;
-   font-size: 14px;
-   line-height: 1,7;
-   letter-spacing: 0.03em;
-   color: var(--primary-text-color);
 }
 
 /* Profession section */
@@ -160,7 +154,7 @@ ul, .list{
 .two-title {
    font-weight: 700;
    font-size: 36px;
-   line-height: 1,17;
+   line-height: 1.17;
    letter-spacing: 0.03em;
    color: var(--secondary-text-color);
 }
@@ -174,15 +168,13 @@ ul, .list{
 .name-title {
    font-weight: 500;
    font-size: 16px;
-   line-height: 1,2;
-   letter-spacing: 0.03em;
+   line-height: 1.2;
    color: var(--secondary-text-color);
 }
    
 .team-prof {
    font-size: 16px;
-   line-height: 1,2;
-   letter-spacing: 0.03em;
+   line-height: 1.2;
    color: var(--primary-text-color);
 }
    
@@ -192,15 +184,14 @@ ul, .list{
 .two-pf {
    font-weight: 700;
    font-size: 18px;
-   line-height: 2,0;
+   line-height: 2.0;
    letter-spacing: 0.06em;
    color: var(--secondary-text-color);
 }
 
 .text-pf {
    font-size: 16px;
-   line-height: 1,88;
-   letter-spacing: 0.03em;
+   line-height: 1.88;
    color: var(--primary-text-color);
 }
 
@@ -215,11 +206,11 @@ ul, .list{
 }
 
 .footer-studio {
-   font-family: 'Raleway';
+   font-family: 'Raleway', sans-serif;
    font-weight: 700;
    font-style: normal;
    font-size: 26px;
-   line-height: 1,2;
+   line-height: 1.2;
    letter-spacing: 0.03em;
    color: var(--primary-white-color);
 }
@@ -227,23 +218,20 @@ ul, .list{
 .address-location {
    font-style: normal;
    font-size: 14px;
-   line-height: 1,7;
-   letter-spacing: 0.03em;
+   line-height: 1.7;
    color: var(--primary-white-color);
 }
 
 .footer-mail {
    font-style: normal;
    font-size: 14px;
-   line-height: 1,7;
-   letter-spacing: 0.03em;
+   line-height: 1.7;
    color: var(--footer-text-color);
 }
 
 .footer-contact {
    font-style: normal;
    font-size: 14px;
-   line-height: 1,7;
-   letter-spacing: 0.03em;
+   line-height: 1.7;
    color: var(--footer-text-color);
 }
