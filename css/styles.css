@@ -21,10 +21,6 @@ body {
 
 /* Header styles */
 
-/* .page-header {
-   background: var(--primary-white-color);  
-} */
-
 .site-nav .link.current {
    color: var(--accent-color);
 }
