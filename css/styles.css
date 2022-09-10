@@ -55,7 +55,11 @@ a {
 }
 
 .link {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
    color: var(--secondary-text-color);
+   
 }
 
 .link:hover,
@@ -97,8 +101,9 @@ a {
 
 /* Hero section */
 
-.hero{
+.hero {
    background: var(--bg-color);
+   
 }
 
 .hero-title {
